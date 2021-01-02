@@ -1,4 +1,4 @@
-# toggling-button-in-Reactjs-by-state & Hooks
+# toggling-button-in-Reactjs-by-state
 
 ``` JavaScript 
 export default class App extends React.Component{
@@ -37,31 +37,17 @@ export default class App extends React.Component{
 
 }
 ```
-### Hooks in Reactjs
+### toggling-button-in-Reactjs-by-Hooks
 ``` JavaScript
 import React ,{useState} from "react";
 import "./styles.css";
-
-
-  
-
 export default function All(){
 
   var [set , setplay] = useState(false);
 
    Hi = ()=> {
    setplay(!set)
-    
-
-  
-
-    
-
-  }
-
- 
-
-  
+}
 
 return (
   <div>
